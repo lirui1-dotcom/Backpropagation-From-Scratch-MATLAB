@@ -61,8 +61,6 @@ while MSE(iter) >= threshold_err
     MSE(iter + 1) = mse(err);
     iter = iter + 1;
 end
-
-figure, semilog y(mse)
 ```
 
 where:
